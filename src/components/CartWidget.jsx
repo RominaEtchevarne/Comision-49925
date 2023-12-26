@@ -1,14 +1,18 @@
 import React from 'react'
+import { IoCart } from "react-icons/io5";
 
 const CartWidget = () => {
 
     return (
         <div>
-            Carrito
-            0
+            
+            <IoCart />
+
         </div>
     )
 
 }
+
+
 
 export default CartWidget
