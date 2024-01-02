@@ -1,8 +1,9 @@
 import React from 'react'
 import {Card, CardBody, Stack, Heading, Divider, CardFooter,ButtonGroup, Button} from '@chakra-ui/react'
+import { Link } from 'react-router-dom';
 
 
-const Item = ({titulo, descricpion, precio }) => {
+const Item = ({titulo, descricpion, precio, categoria, id, img }) => {
 
     return(
         <Card maxW='sm'>
